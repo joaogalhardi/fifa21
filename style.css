@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background: black
+     
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+h1{
+    background-color: rgba(12, 71, 15, 0.3);
+    color: white;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.fifa{
+    display: inline-block;
+    color: #6e57a5;
+    text-shadow: 5px 5px #1b015a;
+    font-size: 40px;
+
+}
+
+section{
+  color: white;
+  padding: 20px;
+  background-image: url(./imagens/fifa-21-intros.jpg);  
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.formcontainer{
+    max-width: 350px;
+    background-color: rgb(7,41,0,0.50);
+    float: right;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h2{
+    font-size: 20px;
+}
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    display: block;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 20px;
+    box-shadow:2px 6px;
+    font-size: 15px;
+    
+
+}
+
+select{
+
+}
+
+input[type= "submit"]{
+
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.link:hover{
+    cursor: pointer;
+    background: #f52ec6bb ;
+    color: white;
+}
+
+
+main{
+    padding: 40px;
+    background: rgba(12, 71, 15, 0.1);
+    
+}
+
+.picture{
+    width: 300px;
+    position: relative;
+    left: 40px;
+
+    
+}
+
+.description{
+    display: inline-block;
+    color: white;
+    max-width: 40%;
+    margin-left: 150px;
+    position: relative;
+    bottom: 100px;
+    
+    
+  
+}
+
+.description h3{
+    font-size: 36px;
+
+}
+
+.description p{
+    font-size: 18px;
+    text-align: left;
+}
+
+footer{
+    background-color: #3e036e  ;
+    padding: 20px;
+
+}
+
+
+
+footer{
+    text-align: center;
+    margin: auto;
+}
+
+
+.icon{
+    width: 50px;
+    margin-left: 20px;
+    transform: translate(center, center);
+    
+}
+
+.icon:hover{
+    padding: 5px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.final{
+    color: white;
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+
+   
+    
+    h1{
+        max-width: 100%;
+        text-align: center;
+    }
+    
+    .formcontainer{
+        float: none;
+        margin: auto;
+    }
+
+    .picture{
+       display: inline-block;
+        max-width: 300px;
+    
+    }
+
+   .description{
+    max-width: 300px;
+    margin-left: 100px;
+    
+    padding-top: 100px;
+   }
+
+   .icon{
+    
+    position: relative;
+    left: 0px;
+ }
+
+
+
+
+}
+
+@media screen and (max-width: 380px) {
+
+    .description{
+        max-width: 300px;
+        margin-left: 0px;
+        
+        padding-top: 100px;
+       }
+
